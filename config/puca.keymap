@@ -65,7 +65,7 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_tap &kp KP_ENTER &kp G &kp L &kp KP_DOT &kp G &kp SEMI>
+                = <&macro_tap &kp KP_ENTER &kp G &kp L &kp PERIOD &kp G &kp SEMI>
                 , <&macro_pause_for_release>
                 , <&macro_tap &kp KP_ENTER>
                 ;
@@ -78,7 +78,7 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_tap &kp KP_ENTER &kp G &kp L &kp KP_DOT &kp G &kp SEMI &kp KP_MINUS>
+                = <&macro_tap &kp KP_ENTER &kp G &kp L &kp PERIOD &kp G &kp SEMI &kp KP_MINUS>
                 , <&macro_pause_for_release>
                 , <&macro_tap &kp KP_ENTER>
                 ;
@@ -91,7 +91,7 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_tap &kp KP_ENTER &kp G &kp L &kp KP_DOT &kp G &kp SEMI &kp UNDER>
+                = <&macro_tap &kp KP_ENTER &kp G &kp L &kp PERIOD &kp G &kp SEMI &kp UNDER>
                 , <&macro_pause_for_release>
                 , <&macro_tap &kp KP_ENTER>
                 ;
