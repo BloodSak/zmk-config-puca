@@ -217,8 +217,7 @@
                 &kp F1              &kp F2           &kp F3           &kp KP_ENTER        &kp KP_ENTER
                 &kp K_COPY          &kp K_COPY       &mo 3            &mo 3               &kp K_COPY
             >;
-            sensor-bindings = < &inc_dec_kp C_VOL_UP C_VOL_DN >
-
+            sensor-bindings = < &inc_dec_kp C_VOL_UP C_VOL_DN >;
         };
 
 
@@ -233,7 +232,6 @@
                 &kp KP_N0           &kp KP_N0           &kp KP_DOT          &kp KP_DOT          &kp KP_N0
             >;
             sensor-bindings = < &inc_dec_kp C_VOL_UP C_VOL_DN >;
-
         };
 
 
@@ -248,7 +246,6 @@
                 &dele           &dele           &voide          &kp voide       &dele
             >;
             sensor-bindings = < &inc_dec_kp C_VOL_UP C_VOL_DN >;
-
         };
 
 
@@ -263,7 +260,7 @@
                 &trans          &trans          &trans          &trans          &trans
             >;
             sensor-bindings = < &inc_dec_kp C_VOL_UP C_VOL_DN >;
-
         }; 
+
     };
 };
