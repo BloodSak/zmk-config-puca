@@ -23,7 +23,7 @@
             compatible = "zmk,behavior-macro";
             label = "ZM_incoming";
             #binding-cells = <0>;
-            wait-ms = <20>;
+            wait-ms = <30>;
             tap-ms = <20>;
             bindings
                 = <&macro_tap &kp KP_ENTER &kp G &kp L &kp I>
@@ -36,7 +36,7 @@
             compatible = "zmk,behavior-macro";
             label = "ZM_incominga";
             #binding-cells = <0>;
-            wait-ms = <20>;
+            wait-ms = <30>;
             tap-ms = <20>;
             bindings
                 = <&macro_tap &kp KP_ENTER &kp G &kp L &kp I &kp KP_MINUS>
@@ -49,7 +49,7 @@
             compatible = "zmk,behavior-macro";
             label = "ZM_incomingb";
             #binding-cells = <0>;
-            wait-ms = <20>;
+            wait-ms = <30>;
             tap-ms = <20>;
             bindings
                 = <&macro_tap &kp KP_ENTER &kp G &kp L &kp I &kp LS(MINUS)>
@@ -62,7 +62,7 @@
             compatible = "zmk,behavior-macro";
             label = "ZM_invis";
             #binding-cells = <0>;
-            wait-ms = <20>;
+            wait-ms = <30>;
             tap-ms = <20>;
             bindings
                 = <&macro_tap &kp KP_ENTER &kp G &kp L &kp PERIOD &kp G &kp SEMI>
@@ -75,7 +75,7 @@
             compatible = "zmk,behavior-macro";
             label = "ZM_invisa";
             #binding-cells = <0>;
-            wait-ms = <20>;
+            wait-ms = <30>;
             tap-ms = <20>;
             bindings
                 = <&macro_tap &kp KP_ENTER &kp G &kp L &kp PERIOD &kp G &kp SEMI &kp KP_MINUS>
@@ -88,7 +88,7 @@
             compatible = "zmk,behavior-macro";
             label = "ZM_invisb";
             #binding-cells = <0>;
-            wait-ms = <20>;
+            wait-ms = <30>;
             tap-ms = <20>;
             bindings
                 = <&macro_tap &kp KP_ENTER &kp G &kp L &kp PERIOD &kp G &kp SEMI &kp LS(MINUS)>
@@ -101,7 +101,7 @@
             compatible = "zmk,behavior-macro";
             label = "ZM_watchout";
             #binding-cells = <0>;
-            wait-ms = <20>;
+            wait-ms = <30>;
             tap-ms = <20>;
             bindings
                 = <&macro_tap &kp KP_ENTER &kp COMMA &kp A &kp K &kp I &kp J &kp SPACE &kp S &kp F &kp K>
@@ -114,7 +114,7 @@
             compatible = "zmk,behavior-macro";
             label = "ZM_watchouta";
             #binding-cells = <0>;
-            wait-ms = <20>;
+            wait-ms = <30>;
             tap-ms = <20>;
             bindings
                 = <&macro_tap &kp KP_ENTER &kp COMMA &kp A &kp K &kp I &kp J &kp SPACE &kp S &kp F &kp K &kp KP_MINUS>
@@ -127,7 +127,7 @@
             compatible = "zmk,behavior-macro";
             label = "ZM_watchoutb";
             #binding-cells = <0>;
-            wait-ms = <20>;
+            wait-ms = <30>;
             tap-ms = <20>;
             bindings
                 = <&macro_tap &kp KP_ENTER &kp COMMA &kp A &kp K &kp I &kp J &kp SPACE &kp S &kp F &kp K &kp LS(MINUS)>
@@ -140,7 +140,7 @@
             compatible = "zmk,behavior-macro";
             label = "ZM_chata";
             #binding-cells = <0>;
-            wait-ms = <20>;
+            wait-ms = <30>;
             tap-ms = <20>;
             bindings
                 = <&macro_tap &kp LBKT &kp I &kp J &kp A &kp K &kp SPACE &kp A>
@@ -153,7 +153,7 @@
             compatible = "zmk,behavior-macro";
             label = "ZM_chatp";
             #binding-cells = <0>;
-            wait-ms = <20>;
+            wait-ms = <30>;
             tap-ms = <20>;
             bindings
                 = <&macro_tap &kp LBKT &kp I &kp J &kp A &kp K &kp SPACE &kp R>
@@ -166,7 +166,7 @@
             compatible = "zmk,behavior-macro";
             label = "ZM_scrmb";
             #binding-cells = <0>;
-            wait-ms = <20>;
+            wait-ms = <30>;
             tap-ms = <20>;
             bindings
                 = <&macro_tap &kp KP_MINUS &kp LS(MINUS)>
@@ -177,7 +177,7 @@
             compatible = "zmk,behavior-macro";
             label = "ZM_dele";
             #binding-cells = <0>;
-            wait-ms = <20>;
+            wait-ms = <30>;
             tap-ms = <20>;
             bindings
                 = <&macro_tap &kp LBKT &kp LC(A) &kp BSPC>
@@ -190,7 +190,7 @@
             compatible = "zmk,behavior-macro";
             label = "ZM_voide";
             #binding-cells = <0>;
-            wait-ms = <20>;
+            wait-ms = <30>;
             tap-ms = <20>;
             bindings
                 = <&macro_tap &kp KP_ENTER &kp PERIOD &kp S &kp G &kp H &kp SPACE &kp N1 &kp PERIOD &kp N1 &kp SPACE &kp Y &kp S &kp O &kp SPACE &kp N &kp D &kp H>
