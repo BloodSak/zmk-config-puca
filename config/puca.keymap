@@ -193,7 +193,7 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_tap &kp KP_ENTER &kp V &kp O &kp I &kp D &kp SPACE &kp 1 &kp v &kp 1 &kp SPACE &kp F &kp O &kp R &kp SPACE &kp B &kp E &kp D>
+                = <&macro_tap &kp KP_ENTER &kp V &kp O &kp I &kp D &kp SPACE &kp 1 &kp V &kp 1 &kp SPACE &kp F &kp O &kp R &kp SPACE &kp B &kp E &kp D>
                 , <&macro_pause_for_release>
                 , <&macro_tap &kp KP_ENTER>
                 ;
