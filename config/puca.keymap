@@ -173,19 +173,6 @@
                 ;
         };
 
-        dele: dele {
-            compatible = "zmk,behavior-macro";
-            label = "ZM_dele";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <20>;
-            bindings
-                = <&macro_tap &kp ESC>
-                , <&macro_pause_for_release>
-                , <&macro_tap &kp KP_ENTER>
-                ;
-        };
-
         voide: voide {
             compatible = "zmk,behavior-macro";
             label = "ZM_voide";
@@ -243,7 +230,7 @@
                 &watchout       &watchouta      &watchoutb      &scrmb          &scrmb  
                 &invis          &invisa         &invisb         &trans          &trans
                 &incoming       &incominga      &incomingb      &kp KP_ENTER    &kp KP_ENTER
-                &dele           &dele           &voide          &voide          &dele
+                &kp ESC         &kp ESC         &voide          &voide          &kp ESC
             >;
             sensor-bindings = < &inc_dec_kp C_VOL_UP C_VOL_DN >;
         };
