@@ -180,7 +180,7 @@
             wait-ms = <30>;
             tap-ms = <20>;
             bindings
-                = <&macro_tap &kp LBKT &kp LC(A) &kp BSPC>
+                = <&macro_tap &kp ESC>
                 , <&macro_pause_for_release>
                 , <&macro_tap &kp KP_ENTER>
                 ;
