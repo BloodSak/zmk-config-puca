@@ -202,7 +202,7 @@
                 &kp F7              &kp F8           &kp F9           &kp LC(PERIOD)      &kp LC(PERIOD)  
                 &kp F4              &kp F5           &kp F6           &trans              &trans
                 &kp F1              &kp F2           &kp F3           &kp KP_ENTER        &kp KP_ENTER
-                &kp LC(I)           &kp LC(I)        &mo 3            &mo 3               &kp K_COPY
+                &kp LC(I)           &kp LC(I)        &mo 3            &mo 3               &kp LC(I)
             >;
             sensor-bindings = < &inc_dec_kp C_VOL_UP C_VOL_DN >;
         };
