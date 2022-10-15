@@ -23,12 +23,12 @@
         default_layer {
             label = "default layer";
             bindings = <
-                &kp C_MUTE          &trans           &kp ESC          &kp GRAVE           &trans
-                &kp F10             &kp F11          &kp F12          &to 1               &to 1    
-                &kp F7              &kp F8           &kp F9           &kp LC(PERIOD)      &kp LC(PERIOD)  
-                &kp F4              &kp F5           &kp F6           &trans              &trans
-                &kp F1              &kp F2           &kp F3           &kp KP_ENTER        &kp KP_ENTER
-                &kp LC(I)           &kp LC(I)        &mo 2            &mo 2               &kp LC(I)
+                &kp C_MUTE          &trans           &kp ESC          &kp LMETA           &trans
+                &kp P               &kp U            &kp K            &to 1               &to 1    
+                &kp PERIOD          &kp E            &kp J            &kp SPACE           &kp SPACE  
+                &kp COMMA           &kp O            &kp Q            &trans              &trans
+                &kp APOS            &kp A            &kp SEMI         &kp LCTRL           &kp LCTRL
+                &kp LC(I)           &kp LC(I)        &kp LSHFT        &kp LSHFT           &kp LC(I)
             >;
             sensor-bindings = < &inc_dec_kp C_VOL_UP C_VOL_DN >;
         };
@@ -37,8 +37,8 @@
         numpad_layer {
             label = "numpad layer";
             bindings = <
-                &kp C_MUTE          &trans              &kp ESC             &kp GRAVE           &trans
-                &kp KP_MINUS        &kp KP_DIVIDE       &kp KP_MULTIPLY     &to 0               &to 0   
+                &kp C_MUTE          &trans              &kp ESC             &mo 2              &trans
+                &kp KP_MINUS        &kp KP_DIVIDE       &kp KP_MULTIPLY     &to 0               &to 0  
                 &kp KP_N7           &kp KP_N8           &kp KP_N9           &kp KP_PLUS         &kp KP_PLUS   
                 &kp KP_N4           &kp KP_N5           &kp KP_N6           &trans              &trans
                 &kp KP_N1           &kp KP_N2           &kp KP_N3           &kp KP_ENTER        &kp KP_ENTER
