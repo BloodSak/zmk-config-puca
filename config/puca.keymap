@@ -24,11 +24,11 @@
             label = "default layer";
             bindings = <
                 &kp C_MUTE          &trans           &kp ESC          &kp LMETA           &trans
-                &kp P               &kp U            &kp K            &to 1               &to 1    
-                &kp PERIOD          &kp E            &kp J            &kp SPACE           &kp SPACE  
-                &kp COMMA           &kp O            &kp Q            &trans              &trans
-                &kp APOS            &kp A            &kp SEMI         &kp LCTRL           &kp LCTRL
-                &kp LC(I)           &kp LC(I)        &kp LSHFT        &kp LSHFT           &kp LC(I)
+                &kp R               &kp F            &kp V            &to 1               &to 1    
+                &kp E               &kp D            &kp C            &kp SPACE           &kp SPACE  
+                &kp W               &kp S            &kp Q            &trans              &trans
+                &kp Q               &kp A            &kp Z            &kp LCTRL           &kp LCTRL
+                &kp ESC             &kp ESC          &kp LSHFT        &kp LSHFT           &kp ESC
             >;
             sensor-bindings = < &inc_dec_kp C_VOL_UP C_VOL_DN >;
         };
